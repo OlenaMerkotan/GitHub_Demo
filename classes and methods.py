@@ -5,6 +5,8 @@ class Dog:
         self.weight = weight
         self.color = color
         self._appetite = appetite
+
+
     def run(self):
         return 'I can run!'
     def get_name(self):
